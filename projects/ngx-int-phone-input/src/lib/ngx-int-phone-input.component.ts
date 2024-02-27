@@ -34,7 +34,7 @@ import { PhoneNumberFormat } from './enums/phone-number-format.enum';
 		{
 			provide: NG_VALUE_ACCESSOR,
 			// tslint:disable-next-line:no-forward-ref
-			useExisting: forwardRef(() => NgxIntlTelInputComponent),
+			useExisting: forwardRef(() => NgxIntPhoneInputComponent),
 			multi: true,
 		},
 		{
@@ -44,7 +44,7 @@ import { PhoneNumberFormat } from './enums/phone-number-format.enum';
 		},
 	],
 })
-export class NgxIntlTelInputComponent implements OnInit, OnChanges {
+export class NgxIntPhoneInputComponent implements OnInit, OnChanges {
 	@Input() value: string | undefined = '';
 	@Input() preferredCountries: Array<string> = [];
 	@Input() enablePlaceholder = true;
@@ -94,11 +94,12 @@ export class NgxIntlTelInputComponent implements OnInit, OnChanges {
 	constructor(private countryCodeData: CountryCode) {
 		// If this is not set, ngx-bootstrap will try to use the bs3 CSS (which is not what we've embedded) and will
 		// Add the wrong classes and such
-		setTheme('bs4');
+		setTheme('bs4'); 
 	}
 
 	ngOnInit() {
 		this.init();
+		console.log(this.allCountries)
 	}
 
 	ngOnChanges(changes: SimpleChanges) {

@@ -1,9 +1,7 @@
-import { CountryISO } from 'projects/ngx-int-phone-input/src/lib/enums/country-iso.enum';
-import { SearchCountryField } from 'projects/ngx-int-phone-input/src/lib/enums/search-country-field.enum';
+import { SearchCountryField, CountryISO, PhoneNumberFormat } from 'npx-int-phone-input';
 
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { PhoneNumberFormat } from 'projects/ngx-int-phone-input/src/public_api';
 
 @Component({
 	selector: 'app-root',
@@ -16,8 +14,8 @@ export class AppComponent {
 	CountryISO = CountryISO;
 	PhoneNumberFormat = PhoneNumberFormat;
 	preferredCountries: CountryISO[] = [
-		CountryISO.UnitedStates,
-		CountryISO.UnitedKingdom,
+		CountryISO.SriLanka,
+		CountryISO.Malaysia,
 	];
 	phoneForm = new FormGroup({
 		phone: new FormControl(undefined, [Validators.required]),
@@ -26,4 +24,5 @@ export class AppComponent {
 	changePreferredCountries() {
 		this.preferredCountries = [CountryISO.India, CountryISO.Canada];
 	}
+
 }

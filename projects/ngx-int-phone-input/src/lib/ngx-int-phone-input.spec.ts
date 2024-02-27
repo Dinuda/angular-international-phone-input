@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxIntlTelInputComponent } from './ngx-int-phone-input.component';
+import { NgxIntPhoneInputComponent } from './ngx-int-phone-input.component';
 
-describe('NgxIntlTelInputComponent', () => {
-	let component: NgxIntlTelInputComponent;
-	let fixture: ComponentFixture<NgxIntlTelInputComponent>;
+describe('NgxIntPhoneInputComponent', () => {
+	let component: NgxIntPhoneInputComponent;
+	let fixture: ComponentFixture<NgxIntPhoneInputComponent>;
 
 	beforeEach(async(() => {
 		TestBed.configureTestingModule({
-			declarations: [NgxIntlTelInputComponent],
+			declarations: [NgxIntPhoneInputComponent],
 		}).compileComponents();
 	}));
 
 	beforeEach(() => {
-		fixture = TestBed.createComponent(NgxIntlTelInputComponent);
+		fixture = TestBed.createComponent(NgxIntPhoneInputComponent);
 		component = fixture.componentInstance;
 		fixture.detectChanges();
 	});

@@ -1,38 +1,35 @@
 {
-	"name": "npx-int-tel-input",
+	"name": "npx-int-phone-input",
 	"version": "1.0.0",
 	"peerDependencies": {
 		"@angular/common": "8.x - 17.x",
 		"@angular/core": "8.x - 17.x",
-		"@angular/forms": "8.x - 17.x"
+		"@angular/forms": "8.x - 17.x",
+		"google-libphonenumber": "^3.2.34",
+		"intl-tel-input": "^19.5.3",
+		"ngx-bootstrap": "^12.0.0"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/webcat12345/ngx-int-phone-input"
+		"url": "git+https://github.com/dinuda/ngx-int-phone-input"
 	},
 	"author": {
-		"name": "webcat12345",
-		"email": "webcat91@gmail.com"
+		"name": "dinuda",
+		"email": "ydinuda@gmail.com"
 	},
 	"keywords": [
 		"angular",
 		"ng8",
 		"ng9",
 		"ng10",
-		"angular 8",
-		"angular 9",
-		"angular 10",
-		"angular 11",
-		"angular 12",
-		"angular 13",
-    	"angular 14",
-		"intl-tel-input",
+		"angular 17",
+		"intl-phone-input",
 		"phone number",
 		"validation"
 	],
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/webcat12345/ngx-int-phone-input/issues"
+		"url": "https://github.com/dinuda/ngx-int-phone-input/issues"
 	},
 	"devDependencies": {
 		"@types/google-libphonenumber": "^7.4.17"

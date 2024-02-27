@@ -1,11 +1,10 @@
-import {
-	NgxIntlTelInputModule
-} from 'projects/ngx-int-phone-input/src/lib/ngx-int-phone-input.module';
 
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NpxIntPhoneModule } from 'npx-int-phone-input';
+
 
 import { AppComponent } from './app.component';
 
@@ -15,8 +14,8 @@ import { AppComponent } from './app.component';
 		BrowserModule,
 		FormsModule,
 		ReactiveFormsModule,
-		NgxIntlTelInputModule,
-		BrowserAnimationsModule
+		NpxIntPhoneModule,
+		BrowserAnimationsModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent],

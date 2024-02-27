@@ -28,12 +28,13 @@
     "@angular/platform-browser-dynamic": "8.x - 17.x",
     "@angular/router": "8.x - 17.x",
     "google-libphonenumber": "^3.2.34",
-    "intl-tel-input": "^19.5.2",
+    "intl-tel-input": "^19.5.3",
     "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-jasmine": "^5.1.0",
     "karma-jasmine-html-reporter": "^2.1.0",
     "ng-packagr": "^17.2.0",
     "ngx-bootstrap": "^12.0.0",
+    "npx-int-phone-input": "file:dist/ngx-int-phone-input/npx-int-phone-input-1.0.0.tgz",
     "prettier": "^3.2.5",
     "protractor": "^7.0.0",
     "rollup": "^4.12.0",
@@ -48,7 +49,9 @@
     "@angular/cli": "8.x - 17.x",
     "@angular/compiler-cli": "8.x - 17.x",
     "@angular/language-service": "8.x - 17.x",
-    "@types/google-libphonenumber": "^7.4.30"
+    "@types/google-libphonenumber": "^7.4.30",
+    "karma": "^6.4.3",
+    "karma-chrome-launcher": "^3.2.0"
   },
   "peerDependencies": {
     "@angular/common": "8.x - 17.x",

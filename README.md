@@ -34,16 +34,16 @@ the bootstrap package. This should keep this dependency a lean feature-add
 
 ### Add Dependency Style
 
-Add _'intl-tel-input'_ style file:
+Add _'int-phone-input'_ style file:
 
-`./node_modules/intl-tel-input/build/css/intlTelInput.css`
+`./node_modules/int-phone-input/build/css/intPhoneInput.css`
 
 to **angular.json** styles array:
 
 ```json
 
 "styles": [
-  "./node_modules/intl-tel-input/build/css/intlTelInput.css",
+  "./node_modules/int-phone-input/build/css/intPhoneInput.css",
   "src/styles.css"
 ],
 
