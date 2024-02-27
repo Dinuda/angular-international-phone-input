@@ -1,6 +1,6 @@
 # International Phone Input for Angular (NgxIntPhoneInput)
 
-** This is a fork of the original [ngx-intl-tel-input] by [webcat12345](https://github.com/webcat12345/ngx-intl-tel-input) created to upgrade to angular 17 version due to dependency issues as the repo seemed to be unmaintained)
+** This is a fork of the original [ngx-intl-tel-input] by [webcat12345](https://github.com/webcat12345/ngx-intl-tel-input) created to upgrade to angular 17 version due to dependency issues as the repo seemed to be unmaintained) **
 
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
