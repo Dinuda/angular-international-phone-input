@@ -140,7 +140,7 @@ In your project run:
 
 `$ npm install --save {{path to your local '*.tgz' package file}}`
 
-## Contributors - From Original Repo
+## Contributors - From Original Repo and new contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
