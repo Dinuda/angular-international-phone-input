@@ -34,7 +34,7 @@
     "karma-jasmine-html-reporter": "^2.1.0",
     "ng-packagr": "^17.2.0",
     "ngx-bootstrap": "^12.0.0",
-    "npx-int-phone-input": "file:dist/ngx-int-phone-input/npx-int-phone-input-1.0.0.tgz",
+    "ngx-int-phone-input": "file:dist/ngx-int-phone-input/ngx-int-phone-input-1.0.0.tgz",
     "prettier": "^3.2.5",
     "protractor": "^7.0.0",
     "rollup": "^4.12.0",
