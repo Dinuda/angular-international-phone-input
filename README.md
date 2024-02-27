@@ -3,11 +3,10 @@
 ** This is a fork of the original [ngx-intl-tel-input] by [webcat12345](https://github.com/webcat12345/ngx-intl-tel-input) created to upgrade to angular 17 version due to dependency issues as the repo seemed to be unmaintained)
 
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 
 An Angular package for entering and validating international telephone numbers. It adds a flag dropdown to any input, detects the user's country, displays a relevant placeholder and provides formatting/validation methods.
 
-![alt](readme-assets/ngx-int-phone-input.jpg)
 
 **Compatibility:**
 
@@ -21,7 +20,7 @@ Validation with [google-libphonenumber](https://github.com/ruimarinho/google-lib
 
 ### Install Dependencies
 
-`$ npm install intl-tel-input --save`
+`$ npm install int-phone-input --save`
 
 `$ npm install google-libphonenumber --save`
 
