@@ -36,14 +36,14 @@ the bootstrap package. This should keep this dependency a lean feature-add
 
 Add _'int-phone-input'_ style file:
 
-`./node_modules/int-phone-input/build/css/intPhoneInput.css`
+`./node_modules/intl-tel-input/build/css/intPhoneInput.css`
 
 to **angular.json** styles array:
 
 ```json
 
 "styles": [
-  "./node_modules/int-phone-input/build/css/intPhoneInput.css",
+  "./node_modules/intl-tel-input/build/css/intPhoneInput.css",
   "src/styles.css"
 ],
 
@@ -51,17 +51,17 @@ to **angular.json** styles array:
 
 ### Install This Library
 
-`$ npm install ngx-int-phone-input --save`
+`$ npm i ngx-int-phone-input --save`
 
 ## Usage
 
 ### Import
 
-Add `NgxIntPhoneInputModule` to your module file:
+Add `NpxIntPhoneModule` to your module file:
 
 ```javascript
 imports: [
-  NgxIntPhoneInputModule
+  NpxIntPhoneModule
 ]
 ```
 

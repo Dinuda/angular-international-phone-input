@@ -17,7 +17,6 @@
     "npm_pack": "npm run copy-files && cd dist/ngx-int-phone-input && npm pack",
     "package": "npm run build_lib && npm run npm_pack"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "8.x - 17.x",
     "@angular/common": "8.x - 17.x",
