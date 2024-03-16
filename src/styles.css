@@ -53,7 +53,7 @@ body {
 	}
 }
 
-ngx-int-phone-input input {
+angular-international-phone-input input {
 	height: 44px;
     padding: 10px 10px 10px 50px;
 	border-style: solid;
@@ -63,36 +63,36 @@ ngx-int-phone-input input {
 	font-size: 18px;
 }
 
-ngx-int-phone-input.ng-invalid.ng-touched input {
+angular-international-phone-input.ng-invalid.ng-touched input {
 	border: 1px solid #c0392b;
 }
 
-ngx-int-phone-input input:hover {
+angular-international-phone-input input:hover {
 	box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.24);
 }
 
-ngx-int-phone-input input:focus {
+angular-international-phone-input input:focus {
 	outline: none !important;
 	border-color: #3498db;
 	box-shadow: 0 0 0 0 #000;
 }
 
-ngx-int-phone-input input::-webkit-input-placeholder {
+angular-international-phone-input input::-webkit-input-placeholder {
 	color: #bac2c7;
 }
 
-ngx-int-phone-input input:-ms-input-placeholder {
+angular-international-phone-input input:-ms-input-placeholder {
 	color: #bac2c7;
 }
 
-ngx-int-phone-input input::-ms-input-placeholder {
+angular-international-phone-input input::-ms-input-placeholder {
 	color: #bac2c7;
 }
 
-ngx-int-phone-input input::placeholder {
+angular-international-phone-input input::placeholder {
 	color: #bac2c7;
 }
 
-ngx-int-phone-input input[disabled] {
+angular-international-phone-input input[disabled] {
 	background-color: #e5eaf1;
 }

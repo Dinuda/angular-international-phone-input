@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NpxIntPhoneModule } from 'ngx-int-phone-input';
+import { AngularInternationalPhoneModule } from 'angular-international-phone-input';
 
 
 import { AppComponent } from './app.component';
@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
 		BrowserModule,
 		FormsModule,
 		ReactiveFormsModule,
-		NpxIntPhoneModule,
+		AngularInternationalPhoneModule,
 		BrowserAnimationsModule,
 	],
 	providers: [],

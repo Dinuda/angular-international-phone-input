@@ -13,7 +13,7 @@
 	<form #f="ngForm"
 		[formGroup]="phoneForm">
 		<div class="wrapper">
-			<ngx-int-phone-input [cssClass]="'custom'"
+			<angular-international-phone-input [cssClass]="'custom'"
 				[preferredCountries]="preferredCountries"
 				[enableAutoCountrySelect]="true"
 				[enablePlaceholder]="true"
@@ -27,7 +27,7 @@
 				[numberFormat]="PhoneNumberFormat.National"
 				name="phone"
 				formControlName="phone">
-			</ngx-int-phone-input>
+			</angular-international-phone-input>
 		</div>
 		<div class="wrapper">
 			<button (click)="f.reset()">Reset</button>

@@ -1,6 +1,6 @@
 {
-  "name": "ngx-int-phone-input-app",
-  "version": "0.0.0",
+  "name": "angular-international-phone-input",
+  "version": "2.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,12 +9,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build_stats": "ng build --stats-json",
-    "analyze": "webpack-bundle-analyzer dist/ngx-int-phone-input-app/stats.json",
-    "build_lib": "ng build ngx-int-phone-input",
-    "copy-license": "cp ./LICENSE ./dist/ngx-int-phone-input",
-    "copy-readme": "cp ./README.md ./dist/ngx-int-phone-input",
+    "analyze": "webpack-bundle-analyzer dist/angular-international-phone-input-app/stats.json",
+    "build_lib": "ng build angular-international-phone-input",
+    "copy-license": "cp ./LICENSE ./dist/angular-international-phone-input",
+    "copy-readme": "cp ./README.md ./dist/angular-international-phone-input",
     "copy-files": "npm run copy-license && npm run copy-readme",
-    "npm_pack": "npm run copy-files && cd dist/ngx-int-phone-input && npm pack",
+    "npm_pack": "npm run copy-files && cd dist/angular-international-phone-input && npm pack",
     "package": "npm run build_lib && npm run npm_pack"
   },
   "dependencies": {
@@ -26,6 +26,7 @@
     "@angular/platform-browser": "8.x - 17.x",
     "@angular/platform-browser-dynamic": "8.x - 17.x",
     "@angular/router": "8.x - 17.x",
+    "angular-international-phone-input": "file:dist/angular-international-phone-input/angular-international-phone-input-2.1.0.tgz",
     "google-libphonenumber": "^3.2.34",
     "intl-tel-input": "^19.5.3",
     "karma-coverage-istanbul-reporter": "^3.0.3",
@@ -33,7 +34,6 @@
     "karma-jasmine-html-reporter": "^2.1.0",
     "ng-packagr": "^17.2.0",
     "ngx-bootstrap": "^12.0.0",
-    "ngx-int-phone-input": "file:dist/ngx-int-phone-input/ngx-int-phone-input-1.0.0.tgz",
     "prettier": "^3.2.5",
     "protractor": "^7.0.0",
     "rollup": "^4.12.0",

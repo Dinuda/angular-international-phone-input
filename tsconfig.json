@@ -12,8 +12,8 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "ngx-int-phone-input": [
-        "dist/ngx-int-phone-input/*"
+      "angular-international-phone-input": [
+        "dist/angular-international-phone-input/*"
       ]
     },
     "declaration": false,
@@ -33,6 +33,7 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "compilationMode": "partial"
   }
 }

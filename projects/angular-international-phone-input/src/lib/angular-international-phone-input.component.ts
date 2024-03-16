@@ -21,20 +21,20 @@ import { CountryISO } from './enums/country-iso.enum';
 import { SearchCountryField } from './enums/search-country-field.enum';
 import { ChangeData } from './interfaces/change-data';
 import { Country } from './model/country.model';
-import { phoneNumberValidator } from './ngx-int-phone-input.validator';
+import { phoneNumberValidator } from './angular-international-phone-input.validator';
 import { PhoneNumberFormat } from './enums/phone-number-format.enum';
 
 @Component({
 	// tslint:disable-next-line: component-selector
-	selector: 'ngx-int-phone-input',
-	templateUrl: './ngx-int-phone-input.component.html',
-	styleUrls: ['./bootstrap-dropdown.css', './ngx-int-phone-input.component.css'],
+	selector: 'angular-international-phone-input',
+	templateUrl: './angular-international-phone-input.component.html',
+	styleUrls: ['./bootstrap-dropdown.css', './angular-international-phone-input.component.css'],
 	providers: [
 		CountryCode,
 		{
 			provide: NG_VALUE_ACCESSOR,
 			// tslint:disable-next-line:no-forward-ref
-			useExisting: forwardRef(() => NgxIntPhoneInputComponent),
+			useExisting: forwardRef(() => angularInternationalPhoneInputComponent),
 			multi: true,
 		},
 		{
@@ -44,7 +44,7 @@ import { PhoneNumberFormat } from './enums/phone-number-format.enum';
 		},
 	],
 })
-export class NgxIntPhoneInputComponent implements OnInit, OnChanges {
+export class angularInternationalPhoneInputComponent implements OnInit, OnChanges {
 	@Input() value: string | undefined = '';
 	@Input() preferredCountries: Array<string> = [];
 	@Input() enablePlaceholder = true;
@@ -482,7 +482,7 @@ export class NgxIntPhoneInputComponent implements OnInit, OnChanges {
 	}
 
 	/**
-	 * Clearing the list to avoid duplicates (https://github.com/webcat12345/ngx-int-phone-input/issues/248)
+	 * Clearing the list to avoid duplicates (https://github.com/webcat12345/angular-international-phone-input/issues/248)
 	 */
 	protected fetchCountryData(): void {
 		this.allCountries = [];

@@ -1,6 +1,6 @@
 {
-	"name": "ngx-int-phone-input",
-	"version": "1.2.0",
+	"name": "angular-international-phone-input",
+	"version": "2.1.0",
 	"peerDependencies": {
 		"@angular/common": "8.x - 17.x",
 		"@angular/core": "8.x - 17.x",
@@ -11,7 +11,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dinuda/ngx-int-phone-input"
+		"url": "git+https://github.com/dinuda/angular-international-phone-input"
 	},
 	"publishConfig": {
 		"@dinuda:registry": "https://npm.pkg.github.com"
@@ -32,7 +32,7 @@
 	],
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/dinuda/ngx-int-phone-input/issues"
+		"url": "https://github.com/dinuda/angular-international-phone-input/issues"
 	},
 	"devDependencies": {
 		"@types/google-libphonenumber": "^7.4.17"

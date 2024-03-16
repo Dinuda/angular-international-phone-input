@@ -1,4 +1,4 @@
-import { SearchCountryField, CountryISO, PhoneNumberFormat } from 'ngx-int-phone-input';
+import { SearchCountryField, CountryISO, PhoneNumberFormat } from 'angular-international-phone-input';
 
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
